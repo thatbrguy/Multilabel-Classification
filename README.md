@@ -7,6 +7,7 @@ Repository containing code for the blog post titled "Working Title"
 - You can explore this notebook on [Colab](https://colab.research.google.com/drive/1OdZYPxQm4e_y4lpsDkKy_MwhrEpYXooZ#offline=true&sandboxMode=true) to directly experiment with training the models.
 
 ## Method 2: Local Setup
+Follow these steps to train and use a model for Multilabel Classification. You can also directly use a sample trained model  (`mobilenet.h5`) without training, which can be downloaded from [here](https://drive.google.com/open?id=1K2-eqcoBEJURHJ0K4FoCF70Ei6YYUcNs) (skip to Step 4 in that case). 
 
 ### Step 1: Clone the Repo
 ```bash
@@ -18,7 +19,6 @@ cd Multilabel-Classification
   - Download [data.tar.gz](https://drive.google.com/open?id=1Kuz9LVt9nxFghTwDeo9csu0lnNdIbmu8) and place it in the current directory.
   - Extract the dataset using `tar -xzvf data.tar.gz`
   - Move the contents of `./data/keras/` to the current directory by using `mv ./data/keras/* ./`
-  - Run `python extract_data.py`
 
 ## Step 3: Train the Model
   - Run `train.py --model ResNet50` to train the model.
@@ -28,7 +28,6 @@ cd Multilabel-Classification
   - Run `predict.py --image PATH_TO_FILE --saved_model PATH_TO_h5` to obtain a prediction once the model is trained. 
   - `PATH_TO_FILE` refers to the path of the image.
   - `PATH_TO_h5` refers to the path of the h5 file.
-  - A sample trained model (`mobilenet.h5`) is provided in this directory. 
 
 ## Using Nanonets
  
