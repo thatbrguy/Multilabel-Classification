@@ -52,7 +52,7 @@ def build_model(mode, model_name = None, model_path = None):
         model.compile(optimizer = 'adam', loss = 'binary_crossentropy' , metrics = ['accuracy'])
 
     elif mode == 'inference':
-        model = load_model('model.h5')
+        model = load_model(model_path)
 
     return model
 
