@@ -34,7 +34,7 @@ cd Multilabel-Classification
 ### Step 1: Clone the Repo
 ```bash
 git clone https://github.com/thatbrguy/Multilabel-Classification.git
-cd Multilabel-Classification
+cd Multilabel-Classification/nanonets
 ```
 
 ### Step 2: Get your free API Key
@@ -58,10 +58,10 @@ export NANONETS_MODEL_ID=YOUR_MODEL_ID
  >_**Note:** you will get YOUR_MODEL_ID from the previous step
 
 ### Step 6: Upload the Training Data
-The training data is found in ```images``` (image files) and ```annotations``` (annotations for the image files)
-```bash
-python ./code/upload_training.py
-```
+  - Download [data.tar.gz](https://drive.google.com/open?id=1Kuz9LVt9nxFghTwDeo9csu0lnNdIbmu8) and place it in the current directory.
+  - Extract the dataset using `tar -xzvf data.tar.gz`
+  - Move the contents of `./data/nanonets/` to the current directory by using `mv ./data/nanonets/* ./`
+  - Run `python ./code/upload_training.py` to upload the data.
 
 ### Step 7: Train Model
 Once the Images have been uploaded, begin training the Model
