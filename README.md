@@ -1,7 +1,8 @@
 # Multilabel-Classification
-Repository containing code for the blog post titled "Working Title"
+Repository containing Keras code for the blog post titled "How to Perform Multi Label Classification using Deep Learning". You can checkout the blog post [here](#).
 
 ## Using Keras
+This section lists out the steps involved in training a Keras model (with TensorFlow backend) for Multi Label Classification.
 
 ## Method 1: Google Colab
 - You can explore this notebook on [Colab](https://colab.research.google.com/drive/1OdZYPxQm4e_y4lpsDkKy_MwhrEpYXooZ#offline=true&sandboxMode=true) to directly experiment with training the models.
@@ -16,7 +17,7 @@ cd Multilabel-Classification
 ```
 
 ### Step 2: Download the Dataset
-  - Download [data.tar.gz](https://drive.google.com/open?id=1Kuz9LVt9nxFghTwDeo9csu0lnNdIbmu8) and place it in the current directory.
+  - Download [data.tar.gz](https://drive.google.com/open?id=1hKFMGIY2jNYbntK4e4aGvwOwvzptP8DH) and place it in the current directory.
   - Extract the dataset using `tar -xzvf data.tar.gz`
   - Move the contents of `./data/keras/` to the current directory by using `mv ./data/keras/* ./`
 
@@ -58,7 +59,7 @@ export NANONETS_MODEL_ID=YOUR_MODEL_ID
  >_**Note:** you will get YOUR_MODEL_ID from the previous step
 
 ### Step 6: Upload the Training Data
-  - Download [data.tar.gz](https://drive.google.com/open?id=1Kuz9LVt9nxFghTwDeo9csu0lnNdIbmu8) and place it in the current directory.
+  - Download [data.tar.gz](https://drive.google.com/open?id=1hKFMGIY2jNYbntK4e4aGvwOwvzptP8DH) and place it in the current directory.
   - Extract the dataset using `tar -xzvf data.tar.gz`
   - Move the contents of `./data/nanonets/` to the current directory by using `mv ./data/nanonets/* ./`
   - Run `python ./code/upload_training.py` to upload the data.
@@ -83,7 +84,7 @@ python ./code/prediction.py PATH_TO_YOUR_IMAGE.jpg
 
 **Sample Usage:**
 ```bash
-python ./code/prediction.py ./multilabel_data/ImageSets/2795.jpg
+python ./code/prediction.py ./multilabel_data/ImageSets/2_my_caesar_salad_hostedLargeUrl.jpg
 ```
 
 ## References
