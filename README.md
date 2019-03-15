@@ -4,7 +4,7 @@ Repository containing code for the blog post titled "Working Title"
 ## Using Keras
 
 ## Method 1: Google Colab
-- You can explore this notebook on Colab to directly experiment with training the models.
+- You can explore this notebook on [Colab](https://colab.research.google.com/drive/1OdZYPxQm4e_y4lpsDkKy_MwhrEpYXooZ) to directly experiment with training the models.
 
 ## Method 2: Local Setup
 
@@ -21,7 +21,14 @@ cd Multilabel-Classification
   - Run `python extract_data.py`
 
 ## Step 3: Train the Model
-  - Run `train.py` to train the model.
+  - Run `train.py --model ResNet50` to train the model.
+  - The `--model` argument can take one among `ResNet50`, `MobileNet`, `DenseNet121` or `Xception`.
+
+## Step 4: Inference
+  - Run `predict.py --image PATH_TO_FILE --saved_model PATH_TO_h5` to obtain a prediction once the model is trained. 
+  - `PATH_TO_FILE` refers to the path of the image.
+  - `PATH_TO_h5` refers to the path of the h5 file.
+  - A sample trained model (`mobilenet.h5`) is provided in this directory. 
 
 ## Using Nanonets
  
