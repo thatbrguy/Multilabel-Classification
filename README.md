@@ -2,7 +2,7 @@
 Repository containing Keras code for the blog post titled "How to Perform Multi Label Classification using Deep Learning". You can checkout the blog post [here](#).
 
 <p align="center">
-  <img src="output_sample.png" alt="Harry Potter and the Golden Snitch" height="301px" width="1500px"></img>
+  <img src="output_sample.png" alt="Harry Potter and the Golden Snitch" height="301px" width="750px"></img>
 </p>
 
 ## Using Keras
@@ -93,5 +93,5 @@ python ./code/prediction.py ./multilabel_data/ImageSets/2_my_caesar_salad_hosted
 ```
 
 ## References
-1. Recipes5k
-2. Nanonets
+1. [Recipes5k](http://www.ub.edu/cvub/recipes5k/)
+2. [Nanonets](https://nanonets.com/)
