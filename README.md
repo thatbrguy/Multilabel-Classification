@@ -1,6 +1,10 @@
 # Multilabel-Classification
 Repository containing Keras code for the blog post titled "How to Perform Multi Label Classification using Deep Learning". You can checkout the blog post [here](#).
 
+<p align="center">
+  <img src="output_sample.png" alt="Harry Potter and the Golden Snitch" height="301px" width="1500px"></img>
+</p>
+
 ## Using Keras
 This section lists out the steps involved in training a Keras model (with TensorFlow backend) for Multi Label Classification.
 
@@ -31,7 +35,8 @@ cd Multilabel-Classification
   - `PATH_TO_h5` refers to the path of the h5 file.
 
 ## Using Nanonets
- 
+This section lists out the steps involved in training a Nanonets model for Multi Label Classification.
+
 ### Step 1: Clone the Repo
 ```bash
 git clone https://github.com/thatbrguy/Multilabel-Classification.git
