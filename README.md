@@ -4,7 +4,7 @@ Repository containing code for the blog post titled "Working Title"
 ## Using Keras
 
 ## Method 1: Google Colab
-- You can explore this notebook on [Colab](https://colab.research.google.com/drive/1OdZYPxQm4e_y4lpsDkKy_MwhrEpYXooZ) to directly experiment with training the models.
+- You can explore this notebook on [Colab](https://colab.research.google.com/drive/1OdZYPxQm4e_y4lpsDkKy_MwhrEpYXooZ#offline=true&sandboxMode=true) to directly experiment with training the models.
 
 ## Method 2: Local Setup
 
