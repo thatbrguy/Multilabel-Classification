@@ -1,5 +1,5 @@
 # Multilabel-Classification
-Repository containing Keras code for the blog post titled "How to Perform Multi Label Classification using Deep Learning". You can checkout the blog post [here](#).
+Repository containing Keras code for the blog post titled "How to Perform Multi Label Classification using Deep Learning". You can checkout the blog post [here](https://medium.com/nanonets/how-to-easily-classify-food-using-deep-learning-and-tensorflow-cbe9b1dc302c?source=friends_link&sk=b0ea286936a8be368b329ab5429857cf).
 
 <p align="center">
   <img src="output_sample.png" alt="Multi Label Classification Samples" height="301px" width="750px"></img>
